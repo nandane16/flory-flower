@@ -11,10 +11,10 @@
 
 
 ### Hosted Project LinkS
-[mention your project hosted project link here]
+https://nandane16.github.io/flory-flower/
 
 ### Project Description
-[2-3 lines about what your project does]
+flower buying website for the people who are not able to buy 💐 
 
 ### The Problem statement
 [What ridiculous problem are you solving?]
@@ -25,10 +25,10 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- html and css
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- [chat gpt]
 
 For Hardware:
 - [List main components]
@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1] https://drive.google.com/file/d/1nbZImDe9atooB4dsnaIyoeSKKWcM84nC/view?usp=drivesdk
 Add caption explaining what this shows
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2] https://drive.google.com/file/d/1XD3KKlEa5JhQ3BQ877IxKcZUZGDTehzY/view?usp=drivesdk
 Add caption explaining what this shows
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3] https://drive.google.com/file/d/1JiiO9BB2altBpiwvdsSFAIbQixkCFg1E/view?usp=drivesdk
 Add caption explaining what this shows
 
 # Diagrams
@@ -84,7 +84,7 @@ Explain the final build
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://drive.google.com/file/d/1JiiO9BB2altBpiwvdsSFAIbQixkCFg1E/view?usp=drivesdk
 Explain what the video demonstrates
 
 # Additional Demos
