@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Checkout Flow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+        .icon img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .icon span {
+            font-size: 16px;
+            color: #333;
+        }
+        .success {
+            font-size: 20px;
+            color: green;
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cart-page">
+        <h1>Cart Checkout</h1>
+        <div class="icons">
+            <div class="icon" onclick="proceedMoney()">
+                <img src="https://via.placeholder.com/50" alt="Proceed Money">
+                <span>Proceed Money</span>
+            </div>
+            <div class="icon" onclick="buyNow()">
+                <img src="https://via.placeholder.com/50" alt="Buy Now">
+                <span>Buy Now</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="success-page" style="display: none;">
+        <h1>Booking Successful</h1>
+        <p class="success">Thank you for your purchase!</p>
+    </div>
